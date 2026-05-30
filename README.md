@@ -4,6 +4,13 @@ AlphaAudit is an autonomous pre-earnings predictive intelligence engine engineer
 
 ---
 
+## 🎥 Live Video Presentation
+
+Watch our complete 3-minute hackathon pitch and walk-through demo here:
+👉 **[Watch the AlphaAudit Live Pitch on Loom](https://www.loom.com/share/6a2854f510234c99b28bbd6dd06c130f)**
+
+---
+
 ## ⚡ The Tech Stack & Models Used
 
 - **AI Reasoning Model:** `Gemini-2.5-Flash` (Dynamic candidates fallback: `Gemini-2.0-Flash`, `Gemini-1.5-Flash`). Used for (1) extracting structured corporate claims from filings, and (2) quantitative multi-vector pre-earnings synthesis (Buffett thesis).
