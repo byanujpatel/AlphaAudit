@@ -10,10 +10,10 @@ from graph import app_graph, GraphState
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("alphaweave.main")
+logger = logging.getLogger("alphaaudit.main")
 
 app = FastAPI(
-    title="AlphaWeave: Autonomous Pre-Earnings Alternative Data Engine",
+    title="AlphaAudit: Autonomous Pre-Earnings Alternative Data Engine",
     description="Stateful cyclic multi-agent graph intelligence engine utilizing Bright Data and Gemini."
 )
 
@@ -31,7 +31,7 @@ async def startup_event():
     """
     On startup, connect to the Bright Data MCP server.
     """
-    logger.info("Starting up AlphaWeave backend server...")
+    logger.info("Starting up AlphaAudit backend server...")
     # Initialize the MCP connection
     await mcp_client.connect()
 
@@ -40,7 +40,7 @@ async def shutdown_event():
     """
     Disconnect from the MCP server on shutdown.
     """
-    logger.info("Shutting down AlphaWeave backend server...")
+    logger.info("Shutting down AlphaAudit backend server...")
     await mcp_client.disconnect()
 
 @app.get("/api/health")
@@ -79,7 +79,7 @@ async def analyze_company(target: str = Query(..., description="Stock ticker or 
         # Keep track of which log events we've already streamed to avoid duplicates
         sent_log_count = 0
 
-        yield f"data: {json.dumps({'type': 'init', 'message': f'Initializing AlphaWeave analysis for {target}...'})}\n\n"
+        yield f"data: {json.dumps({'type': 'init', 'message': f'Initializing AlphaAudit analysis for {target}...'})}\n\n"
         await asyncio.sleep(0.5)
 
         try:

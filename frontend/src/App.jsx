@@ -57,7 +57,7 @@ function App() {
     setOutcome(null);
     setActiveNode('Discovery_Node');
     setLogs([
-      { node: 'System', message: `Initializing AlphaWeave Pre-Earnings Engine for target: ${target}` },
+      { node: 'System', message: `Initializing AlphaAudit Pre-Earnings Engine for target: ${target}` },
       { node: 'System', message: 'Establishing native JSON-RPC MCP handshake...' }
     ]);
 
@@ -174,7 +174,7 @@ function App() {
               </div>
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <span className="brand-text">ALPHAWEAVE</span>
+                  <span className="brand-text">ALPHAAUDIT</span>
                   <span className="vector-pill-badge" style={{ fontSize: '9px', padding: '0.1rem 0.3rem' }}>v2.0</span>
                 </div>
                 <p style={{ fontSize: '9px', color: 'var(--text-muted)', fontFamily: 'monospace', letterSpacing: '0.1rem', marginTop: '0.15rem' }}>
@@ -225,7 +225,7 @@ BRIGHT_DATA_API_KEY=YourBrightDataKeyHere`}
               <div>
                 <p style={{ fontWeight: '600', color: 'var(--blue)', marginBottom: '0.25rem' }}>🌐 Self-Healing Architecture:</p>
                 <p style={{ color: 'var(--text-secondary)' }}>
-                  Our compiled LangGraph connects to the Bright Data MCP server over Stdio transport natively. If your local device does not have Node/npx, AlphaWeave automatically self-heals by routing searches and crawls directly via proxy Web Unlocker and SERP APIs!
+                  Our compiled LangGraph connects to the Bright Data MCP server over Stdio transport natively. If your local device does not have Node/npx, AlphaAudit automatically self-heals by routing searches and crawls directly via proxy Web Unlocker and SERP APIs!
                 </p>
               </div>
             </div>
@@ -241,7 +241,7 @@ BRIGHT_DATA_API_KEY=YourBrightDataKeyHere`}
                 <span>Pre-Earnings Asset Coordinate Discovery</span>
               </h2>
               <p style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
-                AlphaWeave converts your target into high-yield alternative search arrays. Our programmatic parser saves 1 LLM request per run, leaving 100% of your free-tier quota for earnings reports generation.
+                AlphaAudit converts your target into high-yield alternative search arrays. Our programmatic parser saves 1 LLM request per run, leaving 100% of your free-tier quota for earnings reports generation.
               </p>
             </div>
 
