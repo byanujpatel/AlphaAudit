@@ -1,0 +1,36 @@
+# Secrets & Configs
+backend/.env
+backend/.env.local
+frontend/.env
+frontend/.env.local
+.env
+.env.local
+
+# Python Virtual Environments & Cache
+backend/venv/
+backend/ENV/
+backend/env/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.pytest_cache/
+backend/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Node & Build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+node_modules/
+dist/
+
+# macOS System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
